@@ -3,7 +3,7 @@ theme: default
 layout: two-cols
 ---
 
-<template v-slot:default style="grid-template-columns: 80px; auto">
+<template v-slot:default style="grid-template-columns: 80px auto; column-gap: 50px; ">
 
 # Left
 
