@@ -3,17 +3,20 @@ theme: default
 layout: two-cols
 ---
 
-<template v-slot:default style="grid-template-columns: 80px auto; column-gap: 50px; ">
+# Test
 
-# Left
+<div class="grid grid-cols-[130%_60%] gap-4">
+<div>
 
-This shows on the left andis some more text asdf asdf fill fill
+The first column (70%) and some long text to go with it
+g text to go with it
+g text to go with it
+g text to go with it
 
-</template>
-<template v-slot:right>
+</div>
+<div>
 
-# Right
+The second column (30%)The second column (30%)The second column (30%)The second column (30%)The second column (30%)
 
-This shows on the rightThis shows on the rightThis shows on the rightThis shows on the right
-
-</template>
+</div>
+</div>
